@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, input, button {
+    background-color: rgba(245, 232, 245, 0.525);
+    font-family: 'Open Sans', sans-serif;
+}
+
+input, button {
+    font-size: 16px;
+}
+
+.head_bar {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(243, 183, 252, 0.945);
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+
+}
+
+.input_section {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.input_section > h2 {
+    text-align: center;
+    color: rgb(244, 107, 214);
+}
+
+.input_section > form > .input {
+    margin: 8px 0;
+}
+
+.input_section > form > button {
+    background-color: rgba(209, 27, 167, 0.945);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.input_section > form > button > span {
+    font-weight: bold;
+}
+
+.input_section > form > .input > input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+.input_section > form > .input > label {
+    color: rgb(218, 89, 232);
+    font-weight: bold;
+}
+
+.input_section > form > .input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.input_section > form > .input_inline > label {
+
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+.alat_shelf {
+    margin: 16px 0 0 0;
+    border: 1px solid black;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.alat_shelf > h2 {
+    color: rgb(242, 100, 223);
+}
+
+.alat_shelf > .alat_list {
+    padding: 10px;
+}
+
+.alat_shelf > .alat_list > .alat_item {
+    background-color: rgba(239, 224, 239, 0.295);
+    padding: 8px 16px 16px 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.alat_shelf > .alat_list > .alat_item > h3, p {
+    margin: 8px 0;
+}
+
+.alat_shelf > .alat_list > .alat_item > .action > button {
+    border: 0;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alat_shelf > .alat_list > .alat_item > .action > .green {
+    background-color: rgb(253, 250, 252);
+    color: white;
+}
+
+.alat_shelf > .alat_list > .alat_item > .action > .red {
+    background-color: rgb(238, 141, 141);
+    color: white;
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alatshelf Apps</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="tugas 3.css">
+</head>
+<body>
+<header class="head_bar">
+  <h1 class="head_bar__title">Alatshelf Apps</h1>
+</header>
+<main>
+  <section class="input_section">
+    <h2>Masukkan Buku Baru</h2>
+    <form id="inputAlat">
+      <div class="input">
+        <label for="inputAlatTitle">Judul</label>
+        <input id="inputAlatTitle" type="text" required>
+      </div>
+      <div class="input">
+        <label for="inputAlatAuthor">Penulis</label>
+        <input id="inputAlatAuthor" type="text" required>
+      </div>
+      <div class="input">
+        <label for="inputAlatYear">Tahun</label>
+        <input id="inputAlatYear" type="number" required>
+      </div>
+     
+      <button id="alatSubmit" type="submit">Masukkan Buku ke rak <span>Belum selesai dibaca</span></button>
+    </form>
+  </section>
+  
+  
+  
+  <section class="alat_shelf">
+    <h2>Belum selesai dibaca</h2>
+    
+    <div id="incompleteAlatshelfList" class="alat_list">
+
+    </div>
+  </section>
+  
+  <section class="alat_shelf" style="visibility: hidden;">
+    <h2>Selesai dibaca</h2>
+    
+    <div id="completeAlatshelfList" class="alat_list">
+
+    </div>
+  </section>
+</main>
+
+<script src="tugas 3.js" type="text/javascript"></script>
+
+</body>
+</html>
